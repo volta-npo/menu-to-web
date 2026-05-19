@@ -1,0 +1,35 @@
+{
+  "name": "@volta-oss/menu-to-web",
+  "version": "3.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Turn a restaurant PDF or photo menu into clean, accessible, searchable web content.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 4173",
+    "validate": "node --test",
+    "certify": "node --test test/v3.test.js",
+    "test:all": "node --test"
+  },
+  "keywords": [
+    "digital presence",
+    "digital-equity",
+    "local-first",
+    "oss",
+    "v3-production",
+    "volta"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volta-npo/05-menu-to-web.git"
+  },
+  "homepage": "https://volta-npo.github.io/05-menu-to-web/",
+  "bugs": {
+    "url": "https://github.com/volta-npo/05-menu-to-web/issues"
+  },
+  "author": "Volta OSS Division <volta.npo@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  }
+}
