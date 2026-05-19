@@ -24,7 +24,7 @@ jobs:
       - name: Package release artifact
         run: tar --exclude=.git --exclude=node_modules -czf menu-to-web-release.tar.gz .
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: menu-to-web-release
           path: menu-to-web-release.tar.gz
