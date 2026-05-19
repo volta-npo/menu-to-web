@@ -23,4 +23,19 @@ export declare const domain: {
     artifacts: string[];
     checks: string[];
     sampleClient: string;
+    saas: {
+        personas: string[];
+        stages: {
+            name: string;
+            goal: string;
+            rowPatterns: string[];
+        }[];
+        sampleValues: {
+            "primary-goal": string;
+        };
+        sampleRows: {
+            "Menu search tags generated": string;
+            "Owner change approval captured": string;
+        };
+    };
 };

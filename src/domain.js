@@ -76,18 +76,38 @@ export const domain = {
         "Allergens reviewed",
         "Dietary tags reviewed",
         "Mobile preview checked",
-        "Price-change log started"
+        "Price-change log started",
+        "Item descriptions normalized",
+        "Menu search tags generated",
+        "JSON-LD menu schema drafted",
+        "Owner change approval captured"
     ],
     "artifacts": [
         "Accessible HTML menu",
         "Menu CSV",
-        "Owner review sheet"
+        "Owner review sheet",
+        "Searchable menu JSON",
+        "Menu schema JSON-LD",
+        "Change approval log"
     ],
     "checks": [
         "Item names unique per section",
         "Prices numeric or justified",
-        "Every image-only item transcribed"
+        "Every image-only item transcribed",
+        "Allergen uncertainty must be marked for owner review",
+        "Menu schema requires section and price fields",
+        "Owner approval required before publishing price changes"
     ],
-    "sampleClient": "Riverside Community Bakery"
+    "sampleClient": "Riverside Community Bakery",
+    "saas": {
+        "personas": ["Menu transcription lead", "Restaurant owner", "Accessibility reviewer"],
+        "stages": [
+            { "name": "Menu intake", "goal": "Convert raw menu photos or PDFs into structured sections and item rows.", "rowPatterns": ["Sections|Items|transcribed|Descriptions"] },
+            { "name": "Web enrichment", "goal": "Normalize prices, allergens, dietary tags, search tags, and schema data.", "rowPatterns": ["Prices|Allergens|Dietary|search|JSON-LD"] },
+            { "name": "Owner publishing", "goal": "Review changes with the owner and export accessible web assets.", "rowPatterns": ["Mobile preview|Price-change|Owner|approval"] }
+        ],
+        "sampleValues": { "primary-goal": "publish an accessible, searchable restaurant menu" },
+        "sampleRows": { "Menu search tags generated": "Tagged breakfast, vegetarian, bakery, coffee, and family-friendly items", "Owner change approval captured": "Owner confirmed price normalization and market-price notes" }
+    }
 };
 //# sourceMappingURL=domain.js.map
