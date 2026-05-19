@@ -12,7 +12,7 @@
 
 **Digital Presence** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/05-menu-to-web/) · [Report an issue](https://github.com/volta-npo/05-menu-to-web/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/menu-to-web/) · [Report an issue](https://github.com/volta-npo/menu-to-web/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -182,7 +182,7 @@ This repo is designed to be usable as a real OSS product, not just a static demo
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/05-menu-to-web.git
+git clone https://github.com/volta-npo/menu-to-web.git
 cd 05-menu-to-web
 npm install
 npm test

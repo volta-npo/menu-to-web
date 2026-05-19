@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/05-menu-to-web.git"
+    "url": "git+https://github.com/volta-npo/menu-to-web.git"
   },
-  "homepage": "https://volta-npo.github.io/05-menu-to-web/",
+  "homepage": "https://volta-npo.github.io/menu-to-web/",
   "bugs": {
-    "url": "https://github.com/volta-npo/05-menu-to-web/issues"
+    "url": "https://github.com/volta-npo/menu-to-web/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
