@@ -22,6 +22,24 @@ export declare const domain: {
     rows: string[];
     artifacts: string[];
     checks: string[];
+    modules: {
+        name: string;
+        description: string;
+        metrics: string[];
+        deliverable: string;
+    }[];
+    plays: {
+        name: string;
+        trigger: string;
+        outcome: string;
+    }[];
+    economics: {
+        buyer: string;
+        valueMetric: string;
+        priceHint: string;
+        northStar: string;
+    };
+    exportSuite: string[];
     sampleClient: string;
     saas: {
         personas: string[];
@@ -34,8 +52,18 @@ export declare const domain: {
             "primary-goal": string;
         };
         sampleRows: {
-            "Menu search tags generated": string;
-            "Owner change approval captured": string;
+            "Menu source uploaded/linked": string;
+            "Sections normalized": string;
+            "Items entered with prices": string;
+            "Diet/allergen notes captured": string;
+            "Owner review status recorded": string;
+            "Mobile menu preview checked": string;
+            "Change log generated": string;
+            "Publish-ready export created": string;
+            "Photo-to-item mapping checked": string;
+            "Upsell/modifier groups defined": string;
+            "Out-of-stock/seasonal policy set": string;
+            "Schema/menu metadata drafted": string;
         };
     };
 };
